@@ -4,12 +4,6 @@ rvm:
  - "2.1"
  - "2.2"
 
-language: python 
-
-python:
- - "2.7"
- - "3.4"
-
 install:
     - pip install pysay
     - gem install cowsay
@@ -18,7 +12,6 @@ script:
     - pysay "pip"
     - python test.py
     - python --version
-    - python3 --version
     - cowsay "gems"
     - ruby test.rb
     - ruby --version
