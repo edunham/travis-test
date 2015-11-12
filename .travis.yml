@@ -1,14 +1,11 @@
 language: python 
-rvm:
- - "1.8.7"
- - "2.0.0"
-
+sudo: false
 python:
  - "2.7"
  - "3.0"
 
 install:
-    - sudo pip install pysay
+    - pip install pysay
     - gem install cowsay
 
 script: 
