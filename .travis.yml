@@ -1,9 +1,11 @@
 language: python 
-language: ruby
 
 python:
  - "2.7"
  - "3.4"
+
+language: ruby
+
 rvm: 
  - "2.1"
  - "2.2"
