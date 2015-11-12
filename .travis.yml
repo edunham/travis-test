@@ -1,7 +1,12 @@
 language: python 
+language: ruby
+
 python:
  - "2.7"
  - "3.4"
+rvm: 
+ - "2.1"
+ - "2.2"
 
 install:
     - pip install pysay
