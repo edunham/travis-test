@@ -3,11 +3,11 @@ rvm:
  - "1.8.7"
 
 install:
-    - sudo pip install dogesay 
+    - sudo pip install pysay
     - gem install cowsay
 
 script: 
-    - dogesay "python" "pip" "packages"
+    - pysay "pip"
     - cowsay "gems"
     - python test.py
     - ruby test.rb
