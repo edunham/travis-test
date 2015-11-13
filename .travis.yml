@@ -11,7 +11,7 @@ install:
     - wget https://gist.githubusercontent.com/edunham/6ee5b97100bf4b77d3a1/raw/0b211ce0505398767387daf36d4aa85d26e559fb/ferris.cow
 
 script: 
-    - pysay -f ferris "pip"
+    - pysay -f ~/ferris "pip"
     - python test.py
     - python --version
     - cowsay "gems"
