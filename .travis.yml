@@ -17,3 +17,4 @@ script:
     - cowsay "gems"
     - ruby test.rb
     - ruby --version
+    - echo $seekrits
