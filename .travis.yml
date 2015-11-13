@@ -5,7 +5,7 @@ rvm:
  - "2.2"
 
 install:
-    - sudo pip install pysay
+    - pip install --user pysay
     - gem install cowsay
 
 script: 
